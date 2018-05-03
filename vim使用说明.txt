@@ -1,0 +1,6 @@
+Vim的配置使用可以参考文章：https://saul-mirone.github.io/2017/06/20/vim-config/
+vundle：插件管理器
+nerdtree：目录
+nerdcommenter：快速注释
+vim-colors-solarized：vim主题
+Ctrlp：模糊文件搜索
