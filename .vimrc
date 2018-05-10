@@ -17,12 +17,17 @@ set expandtab                          " 将Tab键转换为空格
 set smartindent                        " 启用智能对齐方式
 set writebackup                        " 保存文件前建立备份，保存成功后删除该备份
 
+" 自动补全引号括号
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {<CR>}<ESC>O
+
 " vim-colors-solarized配置
 " syntax enable
 " set background=dark
 " colorscheme solarized
-
-
 
 " nerdtree配置
 map <F12> :NERDTreeMirror<CR>
