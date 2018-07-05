@@ -7,5 +7,5 @@ Ctrlp：模糊文件搜索
 
 安装过程
 1.在~/中创建文件.vimrc并填写配置
-2.安装vim插件管理工具bundle：git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-3.然后在normal模式下面，输入 “：PluginInstall”，回车等待安装安装完成
+2.安装vim插件管理工具bundle：git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+3.然后在normal模式下面，输入 :PluginInstall，回车等待安装安装完成
